@@ -20,7 +20,7 @@ function showError(err) {
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: "./", //katalog z którego bierze plik index.html
-        notify: false, //czy pokazywać tooltipa
+        notify: false //czy pokazywać tooltipa
         //host: "192.168.0.24", //IPv4 Address Wirless LAN adapter WiFi from ipconfig
         //port: 3000, //port na którym otworzy
         //browser: "google chrome" //jaka przeglądarka ma być otwierana - zaleznie od systemu - https://stackoverflow.com/questions/24686585/gulp-browser-sync-open-chrome-only
